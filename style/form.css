@@ -1,0 +1,50 @@
+@font-face {
+	font-family: 'Helvitica';
+	src: url('../fonts/helvitica_bold.eot');
+	src: local(''), url('../fonts/helvitica_bold.woff') format('woff'),
+	url('../fonts/helvitica_bold.ttf') format('truetype'),
+	url('../fonts/helvitica_bold.svg') format('svg');
+	font-weight: 700;
+/*	font-style: bold;*/
+}
+@font-face {
+	font-family: 'Helvitica';
+	src: url('../fonts/HelveticaLight.eot');
+	src: local(''), 
+	url('../fonts/HelveticaLight.woff') format('woff'),
+	url('../fonts/HelveticaLight.ttf') format('truetype'), 
+	url('../fonts/HelveticaLight.svg') format('svg');
+	font-weight: 400;
+/*	font-style: normal;*/
+}
+
+.wrapper {
+	font-family: 'Helvitica';
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+body{
+	background-image: url(../images/background.png);
+	background-size: 100%; 
+	color: #FFF;
+}
+.wrapper h2 {
+	font-weight: 700;
+}
+.login{
+	background-image: url(../images/login-background.png);
+}
+.login button{
+	width: 280px;
+	height: 45px;
+	border-radius: 5px;
+	padding: .5em 2em;
+ 	outline: none;
+  	border-width: 2px 0;
+  	border-style: solid none;
+  	border-color: #c8e5b3 #000 #73a84c;
+  	background-color: #91c46c;
+  	transition: 0.2s;
+}
+
