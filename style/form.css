@@ -33,6 +33,7 @@ body{
 
 }
 .wrapper h2 {
+	margin: 45px 0 37px 0;
 	color: #FFF;
 	font-weight: 700;
 	font-size: 18px;
@@ -53,7 +54,7 @@ body{
 	padding-left: 40px;
 	margin-bottom: 10px;
 	width: 240px;
-	height: 45px;
+	height: 40px;
 	color: #FFF;	
 	border-radius: 5px;
 	border-style: none;
@@ -90,7 +91,7 @@ body{
 	font-size: 15px;
 	font-weight: 600;
   	border-width: 2px 0;
-  	border-style: solid none;
+  	border-style: 1px solid none;
   	border-color: #c8e5b3 #000 #73a84c;
   	background-color: #91c46c;
   	transition: 0.2s;
