@@ -30,7 +30,7 @@ body{
 	color: #FFF;
 }
 .wrapper h2 {
-
+	color: #FFF;
 	font-weight: 700;
 }
 .login{
@@ -43,16 +43,27 @@ body{
 	height: 310px;
 }
 .login .form-input{
-	width: 280px;
+
+}
+.login .form-input input {
+	padding-left: 40px;
+	margin-bottom: 10px;
+	width: 240px;
 	height: 45px;
 	border-radius: 5px;
-}
-.login .form-input input{
 	border-style: none;
-	width: 100%
-	height:100%;
+	border-color: #cfd7c3 #aab69e;
+	background: rgba(255, 255, 255, 0.1);
 }
-.login .form-input input[type="password"]
+.login .form-input input[type="username"]::-webkit-input-placeholder,
+.login .form-input input[type="password"]::-webkit-input-placeholder { 
+	color: #FFF; 
+}
+.login .form-input input[type="username"]::-moz-placeholder,
+.login .form-input input[type="password"]::-moz-placeholder{
+	color: #FFF; 
+}
+
 .login button{
 	width: 280px;
 	height: 45px;
@@ -64,5 +75,6 @@ body{
   	border-color: #c8e5b3 #000 #73a84c;
   	background-color: #91c46c;
   	transition: 0.2s;
+  	color: #FFF;
 }
 
